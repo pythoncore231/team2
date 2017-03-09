@@ -1,3 +1,4 @@
+'''Program for addition of two inputted numbers.'''
 first_number = 0
 second_number = 0
 first_number = int(raw_input("Please enter first_number: "))
