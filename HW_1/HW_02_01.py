@@ -13,10 +13,10 @@ print (my_string.lower().count('is'))
 i=0
 m=""
 while i < len(my_string)-1:
-    x=my_string[i:i+1]
+    x = my_string[i:i+1]
     if x=="i":
         z='&'
-    else:z=x
+    else: z=x
     m=m+z
     i=i+1
 
