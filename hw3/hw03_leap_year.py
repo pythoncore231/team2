@@ -8,9 +8,9 @@ It's checking Gregorian calendar only
 Enter year to check: """))
 
 if yearToCheck%4 == 0 and yearToCheck % 100 != 0 or yearToCheck % 400 == 0:
-    print "Entered year is leap year!"
+    print "It's a leap year!"
 else:
-    print "Entered year is NOT leap year!"
+    print "This is not a leap year!"
 
 #alternative checking with calendar module
 

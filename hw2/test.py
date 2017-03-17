@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-import string
 
 # l = (1,2,3,4,5,6,7,9,0)
 # print l
