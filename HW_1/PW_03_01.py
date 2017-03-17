@@ -1,4 +1,8 @@
-text = raw_input("Input text : ")
+#text = raw_input("Input text : ")
+
+my_file = open("simfli.txt", "r")
+text = my_file.read()
+print text
 
 finde = raw_input("Input find : ")
 
@@ -14,7 +18,8 @@ while i < len(text)-len(finde):
     x = text[i:i+len(finde)]
     if x == finde:
         #print "Yes"
-        kount = kount + 1
+        print finde
+        kount += 1
 #    else: print "No"
     i=i+1
 print "Kount = {}".format(kount)
