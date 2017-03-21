@@ -14,9 +14,9 @@ if text.count(finde):
 else:
     print "not"
 
-while i < len(text)-len(finde):
-    x = text[i:i+len(finde)]
-    if x == finde:
+while i < len(text)-len(finde)-2:
+    x = text[i:i+len(finde)+2]
+    if x == " "+finde+" ":
         #print "Yes"
         print finde
         kount += 1
