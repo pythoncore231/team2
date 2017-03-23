@@ -4,7 +4,7 @@ y = int(raw_input("Please enter y: "))
 z = int(raw_input("Please enter z: "))
 
 # a)
-a = ((((math.fabs(x-1))**1/2)-((math.fabs(y))**1/3))/(1+((x**2)/2)+(y**2)/4))
+a = ((((math.fabs(x-1))**0.5)-((math.fabs(y))**1/3))/(1+((x**2)/2)+(y**2)/4))
 b = x*(math.atan(z)+math.exp(-(x+3)))
 print "a):"
 print a
@@ -32,7 +32,7 @@ print a
 print b
 
 # d)
-a = (2*math.cos(x-math.pi/6))/(1/2 + (math.sin(y))**2)
+a = (2*math.cos(x-math.pi/6))/(0.5 + (math.sin(y))**2)
 b = 1 + (z**2/(3 + (z**2)/5))
 print "d):"
 print a
@@ -46,8 +46,8 @@ print a
 print b
 
 # g)
-a = math.log1p((y - (math.fabs(x))**1/2)*(x - (y/(z+(x**2)/4))))
-b = x - x**2/(math.factorial(3)) + x**5/(math.factorial(5))
+a = math.log1p((y - (math.fabs(x))**0.5)*(x - (y/(z+(x**2)/4))))
+b = x - x**2/(math.factorial(3)) + (x**5)/(math.factorial(5))
 print "g):"
 print a
 print b
