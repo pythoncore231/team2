@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import datetime
 import requests
 
 
@@ -79,16 +80,20 @@ def exchange(amount, rates, to):
 """
 
 def get_rates_by_period(start_date, end_date, base=None):
-    """
-    generator
+    start_date = map(int, start_date.split("-"))
+    start_date = datetime.date(*start_date)
     
-    :param start_date(str):
-    :param end_date(str):
-    :param base(str or None): {'EUR', 'SD', 'IDR', 'BGN', 'ILS', 'GBP', 'DKK', 'CAD', 'JPY',
-                               'HF', 'RON', 'MYR', 'SEK', 'SGD', 'HKD', 'AD', 'CHF', 'KRW',
-                               'CNY', 'TRY', 'HRK', 'NZD', 'THB', 'NOK', 'RB', 'INR', 'MXN',
-                               'CZK', 'BRL', 'PLN', 'PHP', 'ZAR'}
-    :return dict or None (if error):
-    """
-    pass
+    end_date = map(int, end_date.split("-"))
+    end_date = datetime.date(*end_date)
+    
+    while start_date <= end_date:
+        date = str(start_date)
+        data = get_rates(date, base)
+        yield data
+        start_date = start_date + datetime.timedelta(days=1)
 
+
+data = get_rates_by_period("2012-03-10","2012-03-15")
+for i in data:
+    print i
+    print 
