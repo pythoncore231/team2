@@ -6,6 +6,5 @@ def fib(n):
     return a
 
 max_range = int(raw_input("max fibo: "))
-
 for i in range(0, max_range):
-    print "Fibo number %d, for %d" % (fib(i), i)
+     print "Fibo number %d, for %d" % (fib(i), i)
