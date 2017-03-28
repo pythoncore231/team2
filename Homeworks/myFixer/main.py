@@ -78,3 +78,16 @@ def exchange(amount, rates, to):
    2) вивести суму яку буде при обміня певної суми DKK на BGN та KRW
 """
 
+def get_rates_by_period(start_date, end_date, base=None):
+    """
+    generator
+    
+    :param start_date(str):
+    :param end_date(str):
+    :param base(str or None): {'EUR', 'SD', 'IDR', 'BGN', 'ILS', 'GBP', 'DKK', 'CAD', 'JPY',
+                               'HF', 'RON', 'MYR', 'SEK', 'SGD', 'HKD', 'AD', 'CHF', 'KRW',
+                               'CNY', 'TRY', 'HRK', 'NZD', 'THB', 'NOK', 'RB', 'INR', 'MXN',
+                               'CZK', 'BRL', 'PLN', 'PHP', 'ZAR'}
+    :return dict or None (if error):
+    """
+    pass
