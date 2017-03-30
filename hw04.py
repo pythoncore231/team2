@@ -4,33 +4,54 @@ import math
 """
 Знайти всі чотирьохзначні числа, сума цифер яких рівна заданому числу.
 """
+# number = int(raw_input("Enter the number:"))
+# index = 0
+# if number == 36:
+#     print "9999"
+# else:
+#     for i in range(1000, 9999):
+#         istr = str(i)
+#         if number == int(istr[0]) + int(istr[1]) + int(istr[2]) + int(istr[3]):
+#             print i,
+#             index += 1
+#     if not index:
+#         print "No numbers for current value. 36 is max."
+
 number = int(raw_input("Enter the number:"))
-index = 0
-if number == 36:
-    print "9999"
+
+numbers = [i for i in range(1000, 10000) if number == sum( int(j) for j in str(i) )]
+
+if numbers:
+    print numbers
 else:
-    for i in range(1000, 9999):
-        istr = str(i)
-        if number == int(istr[0]) + int(istr[1]) + int(istr[2]) + int(istr[3]):
-            print i,
-            index += 1
-    if not index:
-        print "No numbers for current value. 36 is max."
+    print "No numbers for current value. 36 is max."
+# *************************************************************************************
 
 # 2
 """
 Задано число, перевірити чи дане число являється простим числом.
 """
+# number = int(raw_input("Please enter number: "))
+# if number == 1 or number == 2:
+#     print "This is prime number"
+# else:
+#     for i in range(3, number/2):
+#         if (number % i) == 0:
+#             print "This is not prime number"
+#             break
+#     else:
+#         print "This is prime number"
+
 number = int(raw_input("Please enter number: "))
 if number == 1 or number == 2:
     print "This is prime number"
 else:
-    for i in range(3, number/2):
-        if (number % i) == 0:
-            print "This is not prime number"
-            break
+    prime = [i for i in range(3, number/2+1) if (number % i) == 0]
+    if prime:
+        print "This is not prime number"
     else:
         print "This is prime number"
+# *************************************************************************************
 
 # 3
 """
@@ -43,34 +64,47 @@ while k < number:
     fibs.append(fibs[-2] + fibs[-1])
     k += 1
 print(fibs),
+# *************************************************************************************
 
 # 4
 """
 Знайти суму кубів цифер заданого натурального числа.
 """
+# number = int(raw_input("Please enter number: "))
+# str1 = str(number)
+# Sum = 0
+# for i in range(len(str1)):
+#     Sum += int(str1[i])**3
+# print "Sum of the cubes: ", Sum
+
 number = int(raw_input("Please enter number: "))
 str1 = str(number)
 Sum = 0
-for i in range(len(str1)):
-    Sum += int(str1[i])**3
-
-# print "Sum of the cubes: ", Sum
+Sum = sum( int(str1[i])**3 for i in range(len(str1)) )
+print "Sum of the cubes: ", Sum
+# *************************************************************************************
 
 # 5
 """
 Заданий текст, вивести всі слова які починаються на певну послідовність символів.
 """
+# str1 = "tast test testas teest tust"
+# sub_str = "te"
+# list_str = str1.split()
+# for i in range(len(list_str)):
+#     if list_str[i].startswith(sub_str):
+#         print list_str[i],
+
 str1 = "tast test testas teest tust"
 sub_str = "te"
 list_str = str1.split()
-for i in range(len(list_str)):
-	if list_str[i].startswith(sub_str):
-		print list_str[i],
-    
- 
+list1 = [list_str[i]  for i in range(len(list_str)) if list_str[i].startswith(sub_str)]
+print list1
+
+# *************************************************************************************
+
 # 6
 
-import math
 e = 1E-5  # 10**-5
 a = 0.05
 b = 0.9
@@ -79,9 +113,9 @@ h = 0.05
 template = "|{:11.5f}\t|{:11.5f}\t|{:11.5f}\t|{:11.5f}\t|"
 print "|\t\tx\t\t|\t\tS\t\t|\t\ty\t\t|\t\tp\t\t|"
 print "-"*65
+# **************************************
 
-
-# #1
+# # #1
 
 x = a
 while x < b:
@@ -97,7 +131,7 @@ while x < b:
     print template.format(x, S, y, p)
     x += h
 print "-"*65
-# 
+# **************************************
 
 # # #2
 
@@ -119,8 +153,9 @@ while x < b:
     print template.format(x, S, y, p)
     x += h
 print "-"*65
+# **************************************
 
-# #3
+# # #3
 e = 1E-5
 a = 0.05
 b = 0.9
@@ -139,8 +174,10 @@ while x < b:
     print template.format(x, S, y, p)
     x += h
 print "-"*65
+# **************************************
 
 # # #4 Not done yet!
+# **************************************
 
 # #5
 e = 1E-5
