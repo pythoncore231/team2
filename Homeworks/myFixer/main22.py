@@ -3,6 +3,10 @@
 import datetime
 import requests
 
+BASE = {'EUR', 'SD', 'IDR', 'BGN', 'ILS', 'GBP', 'DKK', 'CAD', 'JPY',
+        'HF', 'RON', 'MYR', 'SEK', 'SGD', 'HKD', 'AD', 'CHF', 'KRW',
+        'CNY', 'TRY', 'HRK', 'NZD', 'THB', 'NOK', 'RB', 'INR', 'MXN',
+        'CZK', 'BRL', 'PLN', 'PHP', 'ZAR'}
 
 def get_rates(date=None, base=None):
     """
@@ -20,7 +24,7 @@ def get_rates(date=None, base=None):
            є конкретна множина допустимих значень
 
     """
-
+    # "2000-01-03".split("-") => ["2000", "01", "03"]
     url = "http://api.fixer.io/"
     if date:
         url += date
@@ -28,7 +32,11 @@ def get_rates(date=None, base=None):
         url += 'latest'
 
     if base:
-        url = "{}?base={}".format(url, base)
+        if base in BASE:
+            url = "{}?base={}".format(url, base)
+        else:
+            return None
+
     print url
 
 
@@ -92,8 +100,19 @@ def get_rates_by_period(start_date, end_date, base=None):
         yield data
         start_date = start_date + datetime.timedelta(days=1)
 
+def print_json(obj, l=0):
+    for i in obj:
+        if isinstance(obj[i], dict):
+            print "\t"*l, i, ": "
+            print_json(obj[i], l+1)
+        else:
+            print "\t"*l, i, ": ", obj[i]
+    
+if __name__ == "__main__":
+    # data = get_rates_by_period("2012-03-10","2012-03-15")
+    # for i in data:
+    #     print i
+    # print 
 
-data = get_rates_by_period("2012-03-10","2012-03-15")
-for i in data:
-    print i
-    print 
+    data = {1: {11:"1", 12:{121:1, 122:2}, 13:{131:1, 132:{1321:{121:1, 122:2}}}},12:{121:1, 122:2}} 
+    print_json(data)
