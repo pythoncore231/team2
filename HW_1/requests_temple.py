@@ -22,6 +22,13 @@ def get_rates_by_date(date=None):
 
 def get_rates(date=None, base=None):
     url = "http://api.fixer.io/"
+    try:
+        start_date = map(int, date.split("-"))
+        datetime.date(*start_date);
+    except ValueError:
+        date = None
+
+
     if date:
         url += date
     else:
@@ -73,3 +80,9 @@ data = get_rates_by_period("2017-03-01", "2017-03-28")
 for i in data:
     print_dict(i)
     print
+
+data = get_rates("2017-03-01", "BRL")
+
+#date = "fddffg"
+#start_date = map(int, date.split("-"))
+#datetime.date(*start_date)
