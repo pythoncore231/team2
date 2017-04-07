@@ -1,4 +1,5 @@
-from utils.proces import print_dict, get_rates_by_period, print_dict_table, print_temp
+from utils.proces import get_rates_by_period
+from utils.prints import print_dict, print_dict_table, print_temp
 
 #value_first = Rt.get_rates_by_date()
 #value_second = Rt.get_rates_by_date('2008-05-02')
