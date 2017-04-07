@@ -1,10 +1,10 @@
 # -*- coding: UTF-8 -*-
-#homework 2_01
+"""homework 2_01"""
 # quantity (better, never, is)
 # caps all
 # replace i на &
 
-string = """
+string_zen = """
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -27,10 +27,11 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""
 
-# print string
+# print string_zen
+#a = string_zen.count("better") + string_zen.count("never") + string_zen.count("is")
 
-a = string.count("better") + string.count("never") + string.count("is")
-print a
-print string.upper()
-print string.replace("i", "&")
-
+print "better: ", string_zen.count("better")
+print "never:  ", string_zen.count("never")
+print "is:     ", string_zen.count("is")
+print string_zen.upper()
+print string_zen.replace("i", "&")
