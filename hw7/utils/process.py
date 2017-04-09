@@ -62,6 +62,7 @@ pass
 
 
 def print_dict_rates(obj):
+    
     """
     :param obj(dict):
     :return None:

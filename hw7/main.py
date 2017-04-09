@@ -10,11 +10,12 @@ rates = [CurrencySub(i["date"], i["base"], i["rates"]) for i in get_rates_by_per
 
 # print '\tDATE\t|\t'+'\t|\t'.join(BASE)
 # print rates
-print rates
+# print rates
 data = get_rates()
 
-myCurrency = CurrencySub(
-    date=data["date"], base=data["base"], rates=data["rates"])
+myCurrency = CurrencySub(date=data["date"],
+                        base=data["base"],
+                        rates=data["rates"])
 
 print myCurrency
-print rates[0]-rates[1]
+# print rates[0]-rates[1]

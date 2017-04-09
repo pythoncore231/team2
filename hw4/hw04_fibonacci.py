@@ -17,6 +17,6 @@ while True:
 i = 0
 a, b = 0, 1
 while i < n:
-    print "{}--> {}".format(i+1, a)
+    print "{}-> {}".format(i+1, a)
     i += 1
     a, b = b, a + b

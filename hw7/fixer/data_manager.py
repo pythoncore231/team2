@@ -10,6 +10,13 @@ BASE = ('EUR', 'SD', 'IDR', 'BGN', 'ILS', 'GBP', 'DKK', 'CAD', 'JPY',
                                'CNY', 'TRY', 'HRK', 'NZD', 'THB', 'NOK', 'RB', 'INR', 'MXN',
                                'CZK', 'BRL', 'PLN', 'PHP', 'ZAR')
 
+def date_is_correct(date):
+    # try:
+    #     dt.strptime(date, '%Y-%m-%d')
+    # except ValueError:
+    #     raise ValueError("Невірна дата, очікується YYYY-MM-DD")
+    if dt.strptime(date, '%Y-%m-%d'): return True; return False
+
 def get_rates(date=None, base=None):
     """
     :param date(str or None): format "2000-01-03"
