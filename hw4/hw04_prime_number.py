@@ -25,8 +25,8 @@ ls_primes = []
 
 # list_primes = [i for i in range(2, limit) if list_primes[i]]
 
-# ls_not_primes = [j for i in range(2, 8) for j in range(i*2, limit, i)]
-# ls_primes = [x for x in range(2, limit) if x not in ls_not_primes]
+ls_not_primes = [j for i in range(2, 8) for j in range(i*2, limit, i)]
+ls_primes = [x for x in range(2, limit) if x not in ls_not_primes]
 
 print ls_primes
 
