@@ -17,7 +17,7 @@ while True:
     except ValueError:
         print("Мабуть це не число, \nСпробуйте ще раз")
 
-ls_primes = []
+# ls_primes = []
 
 # for i in range(2, int(limit**0.5)):
 #     for j in range(i*2, limit, i):
