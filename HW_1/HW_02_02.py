@@ -10,14 +10,22 @@ while n > 0:
     summa = summa + n % 10
     n = n // 10
 
-print ("Suma = {}".format(summa))
-print ("Dobutok = {}".format(mult))
+print ("Сума = {}".format(summa))
+print ("Добуток = {}".format(mult))
 
 a1 = 14
 a2 = 52
 print ("{}, {}".format(a1,a2))
 a1,a2 = a2,a1
 print ("{}, {}".format(a1,a2))
+
+a = 45
+b = 61
+print ("{}, {}".format(a,b))
+a = a + b
+b = a - b
+a = a - b
+print ("{}, {}".format(a,b))
 
 x = float(input('x = '))
 y = float(input('y = '))
