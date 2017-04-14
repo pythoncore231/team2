@@ -1,7 +1,8 @@
 from base import Base
 
 class User(Base):
-    def __init__(self, id=0, firstname=None, lastname=None, age=0):
+    __id = 0
+    def __init__(self, id=None, firstname=None, lastname=None, age=0):
         super(User, self).__init__(id)
         self.firstname = firstname
         self.lastname = lastname
