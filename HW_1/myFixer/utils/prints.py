@@ -9,6 +9,7 @@ def print_dict(obj):
 
 def print_dict_table(obj):
     for key in obj:
+        pass
 
 
 def print_temp(data):
