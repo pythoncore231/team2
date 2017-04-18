@@ -1,0 +1,5 @@
+1 id: 1 name: 439A capacity: 250 id: 5 name: 150A teacher: id:5 firstname:Name10 lastname:Last10 age:18 position: position 1 pmi33 [u'01 Name1 Last1 23', u'03 Name3 Last3 23', u'04 Name4 Last4 25', u'07 Name7 Last7 19', u'08 Name8 Last8 25'] 2
+2 id: 2 name: 151A capacity: 12 id: 5 name: 150A teacher: id:5 firstname:Name10 lastname:Last10 age:18 position: position 2 pmi52 [u'02 Name2 Last2 24', u'05 Name5 Last5 20', u'06 Name6 Last6 22', u'09 Name9 Last9 30', u'10 Name10 Last10 18'] 2
+3 id: 3 name: 251A capacity: 35 id: 5 name: 150A teacher: id:5 firstname:Name10 lastname:Last10 age:18 position: position 3 pmi12 [u'01 Name1 Last1 23', u'02 Name2 Last2 24', u'03 Name3 Last3 23', u'04 Name4 Last4 25', u'08 Name8 Last8 25', u'09 Name9 Last9 30'] 1
+4 id: 4 name: 265A capacity: 45 id: 5 name: 150A teacher: id:5 firstname:Name10 lastname:Last10 age:18 position: position 4 pmi42 [u'05 Name5 Last5 20', u'06 Name6 Last6 22', u'07 Name7 Last7 19', u'10 Name10 Last10 18'] 1
+3 id: 5 name: 150A capacity: 20 id: 5 name: 150A teacher: id:5 firstname:Name10 lastname:Last10 age:18 position: position 5 pmi32 [u'09 Name9 Last9 30'] 1
