@@ -1,0 +1,3 @@
+pip install -r requirements.txt
+> add file in form, name __init__.py
+python app.py
