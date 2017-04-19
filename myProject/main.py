@@ -3,6 +3,7 @@ import io
 from entity.user import User
 from entity.room import Room
 from entity.lesson import Lesson
+from entity.group import Group
 from entity.scheduler import Scheduler
 
 users = []
@@ -42,61 +43,9 @@ with io.open("out//user.out", 'w') as _file:
         _file.write(user.to_unicode())
         # _file.write(u"\n")
 
-# groups = [[i for i in users if i.age % 2],
-#           [i for i in users if not i.age % 2]]
-# groups = [i for i in users if i.age % 2]
+groups = [[i for i in users if i.age % 2],
+          [i for i in users if not i.age % 2]]
 
-import io
-from entity.room import Room
-from entity.lesson import Lesson
-from entity.user import User
-from entity.group import Group
-from entity.scheduler import Scheduler
-
-
-# зчитати дані з файлів про кімнати, предмети, користувачів,
-rooms = []
-with io.open("in\\room.in", 'r') as _file_room:
-    for room in _file_room:
-        if room:
-            id, name, capacity = room.split()
-            rooms.append(Room(id=id, room_number=name, capacity=capacity))
-        # _file_room.write(unicode(i))
-        # _file_room.write(u"\n")
-
-with io.open("out\\room.out", 'w') as _file_room:
-    for room in rooms:
-        _file_room.write(room.to_unicode())
-        _file_room.write(u"\n")
-
-lessons = []
-with io.open("in\\lesson.in", 'r') as _file_lesson:
-    for lesson in _file_lesson:
-        if lesson:
-            id, name, teacher = lesson.split()
-            lessons.append(Lesson(id=id, name=name, teacher=teacher))
-
-with io.open("out\\lesson.out", 'w') as _file_lesson:
-    for lesson in lessons:
-        _file_lesson.write(lesson.to_unicode())
-        _file_lesson.write(u"\n")
-
-users = []
-with io.open("in\\User.in", 'r') as _file_user:
-    for user in _file_user:
-        if user:
-            id, first_name, last_name, age = user.split()
-            users.append(User(id=id, first_name=first_name, last_name=last_name, age=age))
-            # _file_user.write(unicode(i))
-            # _file_user.write(u"\n")
-
-with io.open("out\\User.out", 'w') as _file_user:
-    for user in users:
-        _file_user.write(user.to_unicode())
-        _file_user.write(u"\n")
-
-
-# створити дві групи і заповнити користувачами, після чого записати результат у файл
 
 list_101 = []
 list_202 = []
