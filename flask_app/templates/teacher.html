@@ -1,0 +1,19 @@
+
+<table border>
+  <tr>
+    <th>id</th>
+    <th>firstname</th>
+    <th>lastname</th>
+    <th>age</th>
+    <th>position</th>
+  </tr>
+    {% for teacher in teachers %}
+        <tr>
+            <th>{{ teacher.id }}</th>
+            <th>{{ teacher.firstname }}</th>
+            <th>{{ teacher.lastname }}</th>
+            <th>{{ teacher.age }}</th>
+            <th>{{ teacher.position }}</th>
+        </tr>
+    {% endfor %}
+</table>

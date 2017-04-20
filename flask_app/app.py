@@ -3,7 +3,7 @@ import os.path
 from flask import Flask, request, redirect,  render_template
 from flask_sqlalchemy import SQLAlchemy
 
-from form.room import RoomForm, UserForm
+from form.room import RoomForm, UserForm, TeacherForm
 
 app = Flask(__name__)
 
@@ -21,13 +21,20 @@ class Room(db.Model):
     def __repr__(self):
         return '<Room {} {}>'.format(self.name, self.capacity)
 
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     firstname = db.Column(db.String(20), nullable=False)
     lastname = db.Column(db.String(20), nullable=False)
     age = db.Column(db.Integer, nullable=True)
-    
-        
+
+
+class Teacher(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    firstname = db.Column(db.String(20), nullable=False)
+    lastname = db.Column(db.String(20), nullable=False)
+    age = db.Column(db.Integer, nullable=True)
+    position = db.Column(db.String(20), nullable=False)
 
 
 @app.route('/')
@@ -35,7 +42,10 @@ def hello_world():
     return """
             <a href='http://localhost:5000/user'>user</a><br>
             <a href='http://localhost:5000/user/add'>add user</a><br>
-            <a href='http://localhost:5000/room'>room</a>"""
+            <a href='http://localhost:5000/teacher'>teacher</a><br>
+            <a href='http://localhost:5000/teacher/add'>add teacher</a><br>
+            <a href='http://localhost:5000/room'>room</a>
+            """
 
 @app.route('/test')
 def hello_world_test():
@@ -60,19 +70,37 @@ def user_get():
     users = User.query.all()
     return render_template('user.html', us=users)
 
-@app.route('/user/add', methods=['GET','POST'])
+@app.route('/user/add', methods=['GET', 'POST'])
 def user_add():
     form = UserForm(request.form)
     if request.method == 'POST' and form.validate():
-        user = User(firstname = form.firstname.data,
-                    lastname = form.lastname.data,
-                    age = form.age.data)
+        user = User(firstname=form.firstname.data,
+                    lastname=form.lastname.data,
+                    age=form.age.data)
         db.session.add(user)
         db.session.commit()
         return redirect('/user')
     return render_template('user_add.html', form=form)
 
 
+
+@app.route('/teacher', methods=['GET'])
+def teacher_get():
+    teachers = Teacher.query.all()
+    return render_template('teacher.html', teachers=teachers)
+
+@app.route('/teacher/add', methods=['GET', 'POST'])
+def teacher_add():
+    form = TeacherForm(request.form)
+    if request.method == 'POST' and form.validate():
+        teacher = Teacher(firstname=form.firstname.data,
+                          lastname=form.lastname.data,
+                          age=form.age.data,
+                          position=form.position.data)
+        db.session.add(teacher)
+        db.session.commit()
+        return redirect('/teacher')
+    return render_template('teacher_add.html', form=form)
 
 
 
