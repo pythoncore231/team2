@@ -7,8 +7,8 @@ add Entity(db.Model):
 		id
 		firstname
 		lastname
-        		age
-    	Lesson
+        age
+    Lesson
 		id
 		name
 		teacher (User.id)
@@ -16,7 +16,7 @@ add Entity(db.Model):
 		id
 		name
 		members (list(user.id))
-	Sсheduler
+	Scheduler
 		id
 		room (room.id)
 		lesson (lesson.id)
