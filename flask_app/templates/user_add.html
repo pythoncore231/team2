@@ -1,9 +1,7 @@
 {% from "_formhelpers.html" import render_field %}
 <form method=post>
-  <dl>
-    {{ render_field(form.firstname) }}
-    {{ render_field(form.lastname) }}
-    {{ render_field(form.age) }}
-  </dl>
-  <p><input type=submit value=Register>
+    <dl>
+        {{ render_field(form.firstname) }} {{ render_field(form.lastname) }} {{ render_field(form.age) }} {{ render_field(form.group) }}
+    </dl>
+    <p><input type=submit value=Register>
 </form>

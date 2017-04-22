@@ -1,17 +1,26 @@
-
 <table border>
-  <tr>
-    <th>id</th>
-    <th>firstname</th>
-    <th>lastname</th>
-    <th>age</th>
-  </tr>
+    <tr>
+        <th>id</th>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>age</th>
+    </tr>
     {% for user in us %}
-        <tr>
-            <th>{{ user.id }}</th>
-            <th>{{ user.firstname }}</th>
-            <th>{{ user.lastname }}</th>
-            <th>{{ user.age }}</th>
-        </tr>
+    <tr>
+        <th>{{ user.id }}</th>
+        <th>{{ user.firstname }}</th>
+        <th>{{ user.lastname }}</th>
+        <th>{{ user.age }}</th>
+        <th><input type=bottom href="/user/{{user.id}}"></th>
+    </tr>
     {% endfor %}
 </table>
+<!--
+{% extends "layout.html" %}
+{% block body %}
+  <ul>
+  {% for user in users %}
+    <li><a href="{{ user.url }}">{{ user.username }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock %}-->
