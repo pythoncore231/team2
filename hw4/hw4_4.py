@@ -1,6 +1,10 @@
 
-def sum_of_cubs_of_digits(value):
-    return sum(int(c) ** 3 for c in str(value))
+str = raw_input("enter integer number:  ")
+n = len(str)
+summ = 0
+for i in range(0, n):
+    summ += (int(str[i]))**3
 
-string = raw_input("enter numer: ")
-print "Sum of cubes %d" % sum_of_cubs_of_digits(string)
+print "summ of digits cubs =", summ
+
+

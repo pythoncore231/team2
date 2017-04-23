@@ -23,11 +23,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those
 """
 text = str.split(" ")
-st = "on"
+st = raw_input("enter symbols: ")
 
 for i in text:
-    if i.startswith( st ):
-        print ( i )
-
-
-
+    if i.startswith(st):
+        print (i)

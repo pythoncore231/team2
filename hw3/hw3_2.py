@@ -12,7 +12,7 @@ if 12 <= mm <= 1:
     exit(0)
 
 if 1 <= dd <= calendar.monthrange(yyyy,mm)[1]:
-    print "correct date"
+    print "correct date!!!   ", dd, ".", mm, ".", yyyy
 else:
     print "day of month is incorrect"
     exit(0)

@@ -1,5 +1,5 @@
 
-number = 3456
+number = raw_input("input 4sign number:  ")
 
 dobutok = int(str(number)[0])*int(str(number)[1])*int(str(number)[2])*int(str(number)[3])
 print dobutok

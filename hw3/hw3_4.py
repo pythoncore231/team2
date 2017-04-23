@@ -1,9 +1,9 @@
 
 from math import sqrt
-
-a = int(raw_input("a:  "))
-b = int(raw_input("b:  "))
-c = int(raw_input("c:  "))
+print "is it triangle?"
+a = int(raw_input("enter lenght a:  "))
+b = int(raw_input("enter lenght b:  "))
+c = int(raw_input("enter lenght c:  "))
 
 if c < (a + b) and b < (a + c) and a < (b + c):
     p = (a + b + c) / 2
