@@ -167,4 +167,4 @@ def scheduler_get_post():
 
 if __name__ == "__main__":
     db.create_all()
-    app.run()
+    app.run(host="localhost", port=3000)
