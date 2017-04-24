@@ -1,0 +1,79 @@
+{% extends "_menu.html" %}
+{% block content %}
+<h4>Scheduler</h4>
+
+<table border>
+  <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>capacity</th>
+  </tr>
+    {% for room in rooms %}
+        <tr>
+            <th>{{ room.id }}</th>
+            <th>{{ room.name }}</th>
+            <th>{{ room.capacity }}</th>
+        </tr>
+    {% endfor %}
+</table>
+
+<table border>
+  <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>teacher</th>
+  </tr>
+    {% for lesson in lessons %}
+        <tr>
+            <th>{{ lesson.id }}</th>
+            <th>{{ lesson.name }}</th>
+            <th>{{ lesson.teacher.firstname }} {{ lesson.teacher.lastname }}</th>
+        </tr>
+    {% endfor %}
+</table>
+
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    {{ render_field(form.room_id) }}
+    {{ render_field(form.lesson_id) }}
+    {{ render_field(form.date) }}
+    {{ render_field(form.para) }}
+  </dl>
+  <p><input type=submit value=add>
+</form>
+
+<table border>
+  <tr>
+    <th>id</th>
+    <th>room</th>
+    <th>lesson</th>
+    <th>date</th>
+    <th>para</th>
+  </tr>
+    {% for scheduler in schedulers %}
+        <tr>
+            <th>{{ scheduler.id }}</th>
+            <th>{{ scheduler.room }}</th>
+            <th>{{ scheduler.lesson }}</th>
+            <th>{{ scheduler.date }}</th>
+            <th>{{ scheduler.para }}</th>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}
+
+{% block submenu %}
+    <div id="news_box">
+        <h2>Latest Updates</h2>
+            <ul>
+                <li><a href="http://localhost:5000/room">Add</a></li>
+                <li><a href="http://localhost:5000/room/edit">Edit</a></li>
+
+                <li class="last">
+            </ul>
+
+        <div class="cleaner"></div>
+
+    </div>
+{% endblock %}

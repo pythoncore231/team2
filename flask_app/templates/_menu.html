@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/templatemo_style.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename='js/swfobject.js') }}"></script>
+
+<div id="templatemo_header_wrapper">
+    <div id="templatemo_header">
+        <div id="site_title">
+            <a href="#"><img src="{{ url_for('static', filename = 'images/templatemo_logo.png') }}" alt="logo" /><span>Free CSS Templates</span></a>
+        </div> <!-- end of site_title -->
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="http://localhost:5000">Home</a></li> <!--class="current"-->
+                <li><a href="http://localhost:5000/room">Room</a></li>
+                <li><a href="http://localhost:5000/user">User</a></li>
+                <li><a href="http://localhost:5000/lesson">Lesson</a></li>
+                <li><a href="http://localhost:5000/scheduler">Scheduler</a></li>
+            </ul>
+
+            <div id="search_box">
+                <form action="#" method="post">
+                    <input type="text" value="Search on this website" name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+                  	<input type="submit" name="Search" value="" id="searchbutton" title="Search" />
+                </form>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+        <div class="cleaner"></div>
+    </div> <!-- end of header -->
+</div>
+
+<div id="templatemo_wrapper">
+
+    <!--&lt;!&ndash;<div id="templatemo_middle">&ndash;&gt;-->
+
+    	<!--&lt;!&ndash;<p>Curabitur euismod scelerisque lacus. Cras pretium sem sed odio. Vestibulum mauris, malesuada nec, dictum in, molestie in, pede.</p>&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="wwu_btn"><a href="#"></a></div>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</div> &lt;!&ndash; end of templatemo_middle &ndash;&gt;&ndash;&gt;-->
+
+    <div id="templatemo_content_top"></div>
+    <div id="templatemo_content">
+    	<div id="templatemo_main_content">
+            {% block content %}{% endblock %}
+        </div>
+
+        <div id="templatemo_sidebar">
+            {% block submenu %}{% endblock %}
+        </div>
+
+        <div class="cleaner"></div>
+    </div>
+    <div id="templatemo_content_bottom"></div>
+
+    <div id="templatemo_footer">
+
+        Copyright © 2048 <a href="#">Hrat Company</a> <!-- Credit: www.templatemo.com -->
+
+    </div> <!-- end of templatemo_footer -->
+
+</div>

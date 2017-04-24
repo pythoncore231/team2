@@ -1,3 +1,6 @@
+{% extends "_menu.html" %}
+{% block content %}
+<h4>Room</h4>
 {% from "_formhelpers.html" import render_field %}
 <form method=post>
   <dl>
@@ -21,3 +24,19 @@
         </tr>
     {% endfor %}
 </table>
+{% endblock %}
+
+{% block submenu %}
+    <div id="news_box">
+        <h2>Latest Updates</h2>
+            <ul>
+                <li><a href="http://localhost:5000/room">Add</a></li>
+                <li><a href="http://localhost:5000/room/edit">Edit</a></li>
+
+                <li class="last">
+            </ul>
+
+        <div class="cleaner"></div>
+
+    </div>
+{% endblock %}
