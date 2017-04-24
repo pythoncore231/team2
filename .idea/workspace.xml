@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5619717e-e4da-42de-871d-3318168f5bc4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/app.sqlite" afterPath="$PROJECT_DIR$/flask_app/app.sqlite" />
     </list>
     <list id="1b94355a-edb7-4a4e-b191-24fbd25e5660" name="add lesson12  (cherry picked from commit 80d6498)" comment="add lesson12&#10;&#10;(cherry picked from commit 80d6498)" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +24,7 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flask_app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1679">
+            <state relative-caret-position="-1604">
               <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
@@ -621,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493046181999</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="task2_3">
+      <created>1493053360224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1493053360224</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1113,7 +1119,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_app/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1679">
+        <state relative-caret-position="-1604">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>

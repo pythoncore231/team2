@@ -1,0 +1,6 @@
+0 id:2 room:r2, capacity:8 id:2 name:biology teacher:[id:3 firstname:fn3 lastname:ln3 age:38 position:biology] id:1 name:a members:[<2 f2>, <4 f4>, <6 f6>, <8 f8>] 1
+1 id:3 room:r3, capacity:7 id:4 name:phisics teacher:[id:1 firstname:fn1 lastname:ln1 age:45 position:phisics] id:2 name:b members:[<1 f1>, <3 f3>, <5 f5>, <7 f7>, <9 f9>] 1
+2 id:5 room:r5, capacity:4 id:3 name:english teacher:[id:2 firstname:fn2 lastname:ln2 age:34 position:english] id:1 name:a members:[<2 f2>, <4 f4>, <6 f6>, <8 f8>] 2
+3 id:3 room:r3, capacity:7 id:1 name:math teacher:[id:4 firstname:fn4 lastname:ln4 age:51 position:math] id:2 name:b members:[<1 f1>, <3 f3>, <5 f5>, <7 f7>, <9 f9>] 2
+4 id:3 room:r3, capacity:7 id:1 name:math teacher:[id:4 firstname:fn4 lastname:ln4 age:51 position:math] id:1 name:a members:[<2 f2>, <4 f4>, <6 f6>, <8 f8>] 3
+5 id:1 room:r1, capacity:10 id:4 name:phisics teacher:[id:1 firstname:fn1 lastname:ln1 age:45 position:phisics] id:2 name:b members:[<1 f1>, <3 f3>, <5 f5>, <7 f7>, <9 f9>] 3
