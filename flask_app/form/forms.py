@@ -11,7 +11,9 @@ class UserForm(Form):
     lastname = StringField('Last name', [validators.Length(min=1, max=20)])
     age = IntegerField('Age')
 
-
+class GroupForm(Form):
+    name = StringField('Group name', [validators.Length(min=1, max=20)])
+    members = StringField('Group members', [validators.Length(min=1, max=20)])
 
 class LessonForm(Form):
     name = StringField('Name', [validators.Length(min=5, max=20)])

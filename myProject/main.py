@@ -36,7 +36,7 @@ with io.open("in//group.txt", 'r') as _file:
     for line in _file:
         if line:
             data = line.split()
-            id = data [0]
+            id = data[0]
             name = data[1]
             group = Group(id, name)
             groups.append(group)
@@ -77,7 +77,7 @@ with io.open("in//lesson.txt", 'r') as _file:
     for line in _file:
         if line:
             data = line.split()
-            id = data [0]
+            id = data[0]
             name = data[1]
             lesson = Lesson(id, name, [teacher for teacher in teachers if teacher.position == name][0])
             lessons.append(lesson)
@@ -89,14 +89,14 @@ with io.open("in//room.txt", 'r') as _file:
     for line in _file:
         if line:
             data = line.split()
-            id = data [0]
+            id = data[0]
             room_number = data[1]
             capacity = data[2]
             room = Room(id, room_number, capacity)
             rooms.append(room)
 
 # Create schedule
-schedules = []
+shedules = []
 
 para = 1
 
@@ -117,149 +117,21 @@ for i in range(0, 6, 2):
         lesson_for_a = choice(lessons)
         lesson_for_b = choice(lessons)
 
-    schedule_a = Sheduler(i, room_for_a, lesson_for_a, groups[0], para)
-    schedule_b = Sheduler(i+1, room_for_b, lesson_for_b, groups[1], para)
+    shedule_a = Sheduler(i, room_for_a, lesson_for_a, groups[0], para)
+    shedule_b = Sheduler(i+1, room_for_b, lesson_for_b, groups[1], para)
 
-    schedules.append(schedule_a)
-    schedules.append(schedule_b)
+    shedules.append(shedule_a)
+    shedules.append(shedule_b)
+
+    sheduler_a = Sheduler
 
     para += 1
 
-for schedule in schedules:
-    print schedule
+for schedule in shedules:
 
-# with io.open("out//lesson.out", 'w') as _file:
-#     for Lesson in Lessons:
-#         _file.write(Lesson.to_unicode())
-#         _file.write(u"\n")
+    print "para: {} | group: {} | lesson: {} | room: {}".format(schedule.para, schedule.group.name, schedule.lesson.name, schedule.room.room_number)
 
-# print users
-# for user in users:
-#     print user
-#     # print user.to_unicode()
-
-# for user in users:
-#     user.age -=5
-#
-# for user in users:
-#     print user
-#
-# with io.open("out//user.out", 'w') as _file:
-#     for user in users:
-#         _file.write(user.to_unicode())
-#         _file.write(u"\n")
-#
-# Places = []
-#
-# with io.open("in//room.txt", 'r') as _file:
-#     for line in _file:
-#         if line:
-#             data = line.split()
-#             id = data [0]
-#             Room = data[1]
-#             capacity = data[2]
-#             place = Place(id, Room, capacity)
-#             Places.append(place)
-#
-# print Places
-# for Place in Places:
-#     print Place
-#
-# with io.open("out//room.out", 'w') as _file:
-#     for Place in Places:
-#         _file.write(Place.to_unicode())
-#         _file.write(u"\n")
-
-#
-# teachers = []
-# # 'r'
-# # 'w'
-# # 'a'
-# with io.open("in//teacher.txt", 'r') as _file:
-#     for line in _file:
-#         if line:
-#             # id, firstname, lastname, age, position = line.split()
-#             data = line.split()
-#             id = data[0]
-#             firstname = data[1]
-#             lastname = data[2]
-#             age = int(data[3])
-#             position = data[4]
-#             teacher = Teacher(id, firstname, lastname, age, position)
-#             # user = User(firstname=firstname, id=id, lastname=lastname, age=age)
-#             teachers.append(teacher)
-#         # _file.write(unicode(i))
-#         # _file.write(u"\n")
-# print teachers
-# for teacher in teachers:
-#     print teacher
-#     # print user.to_unicode()
-#
-#
-# with io.open("out//staff.out", 'w') as _file:
-#     for teacher in teachers:
-#         _file.write(teacher.to_unicode())
-#         _file.write(u"\n")
-#
-# Lessons = []
-#
-# with io.open("in//lesson.txt", 'r') as _file:
-#     for line in _file:
-#         if line:
-#             data = line.split()
-#             id = data [0]
-#             name = data[1]
-#             lesson = Lesson(id, name, teacher[id(i)])
-#             Lessons.append(lesson)
-#
-# print Lessons
-# for Lesson in Lessons:
-#     print Lesson
-#
-# with io.open("out//lesson.out", 'w') as _file:
-#     for Lesson in Lessons:
-#         _file.write(Lesson.to_unicode())
-#         _file.write(u"\n")
-#
-# Groups = []
-#
-# with io.open("in//group.txt", 'r') as _file:
-#     for line in _file:
-#         if line:
-#             data = line.split()
-#             id = data [0]
-#             name = data[1]
-#             group = Group(id, name, members[id(i)])
-#             Groups.append(group)
-#
-# print Groups
-# for Group in Groups:
-#     print Group
-#
-# with io.open("out//group.out", 'w') as _file:
-#     for Group in Groups:
-#         _file.write(Group.to_unicode())
-#         _file.write(u"\n")
-#
-# Shedulers = []
-#
-# with io.open("in//Sheduler.txt", 'r') as _file:
-#     for line in _file:
-#         if line:
-#             data = line.split()
-#             id = data [0]
-#             room = room
-#             lesson = lesson
-#             group = Group
-#             para = data [0]
-#             sheduler = Sheduler(id, room, lesson, group, para)
-#             Shedulers.append(sheduler)
-#
-# print Shedulers
-# for Sheduler in Shedulers:
-#     print Sheduler
-#
-# with io.open("out//sheduler.out", 'w') as _file:
-#     for Sheduler in Shedulers:
-#         _file.write(Sheduler.to_unicode())
-#         _file.write(u"\n")
+with io.open("out//sheduler.out", 'w') as _file:
+    for sheduler in shedules:
+        _file.write(sheduler.to_unicode())
+        _file.write(u"\n")

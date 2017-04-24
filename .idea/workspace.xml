@@ -2,66 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5619717e-e4da-42de-871d-3318168f5bc4" name="Default" comment="task2_3">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class4/task4_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class4/task4_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class4/task4_3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class5/task5_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class5/task5_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class5/task5_3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class6/task6_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_tasks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/form/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/templates/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/hw4_2_3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/hw4_6_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/hw4_6_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/hw4_6_3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/hw4_6_4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/hw4_6_5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/function.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/hw_5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/try.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson07/cls09.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson07/lesson10.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson07/new.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson07/task7_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson07/task7_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/group.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/lesson.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/room.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/sheduler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/teacher.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/entity/user.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/in/group.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/in/lesson.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/in/room.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/in/task.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/in/teacher.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/in/user.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myProject/main.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw4/hw4_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hw4/hw4_3.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw1/py01.py" afterPath="$PROJECT_DIR$/hw1/py01.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/hw2_2.py" afterPath="$PROJECT_DIR$/hw2/hw2_2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/hw2_3.py" afterPath="$PROJECT_DIR$/hw2/hw2_3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/hw3_2.py" afterPath="$PROJECT_DIR$/hw3/hw3_2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/hw3_3.py" afterPath="$PROJECT_DIR$/hw3/hw3_3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/hw3_4.py" afterPath="$PROJECT_DIR$/hw3/hw3_4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw4/hw4_4.py" afterPath="$PROJECT_DIR$/hw4/hw4_4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw4/hw4_5.py" afterPath="$PROJECT_DIR$/hw4/hw4_5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/app.py" afterPath="$PROJECT_DIR$/flask_app/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/app.sqlite" afterPath="$PROJECT_DIR$/flask_app/app.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/form/forms.py" afterPath="$PROJECT_DIR$/flask_app/form/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/templates/user.html" afterPath="$PROJECT_DIR$/flask_app/templates/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/templates/user_add.html" afterPath="$PROJECT_DIR$/flask_app/templates/user_add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_app/templates/user_update.html" afterPath="$PROJECT_DIR$/flask_app/templates/user_update.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw4/hw4_6_4.py" afterPath="$PROJECT_DIR$/hw4/hw4_6_4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/in/room.txt" afterPath="$PROJECT_DIR$/myProject/in/room.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProject/main.py" afterPath="$PROJECT_DIR$/myProject/main.py" />
     </list>
-    <list id="1b94355a-edb7-4a4e-b191-24fbd25e5660" name="add lesson12  (cherry picked from commit 80d6498)" comment="add lesson12&#10;&#10;(cherry picked from commit 80d6498)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/form/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/templates/lesson.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/templates/scheduler.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask_app/templates/user_update.html" />
-    </list>
+    <list id="1b94355a-edb7-4a4e-b191-24fbd25e5660" name="add lesson12  (cherry picked from commit 80d6498)" comment="add lesson12&#10;&#10;(cherry picked from commit 80d6498)" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +30,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sheduler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myProject/entity/sheduler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myProject/in/group.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myProject/in/lesson.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hw4_6_4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw4/hw4_6_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myProject/entity/room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myProject/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1907">
-              <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="1695">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -90,21 +92,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myProject/entity/group.py">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="-62">
+              <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sheduler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myProject/entity/sheduler.py">
+      <file leaf-file-name="app.sqlite" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_app/app.sqlite">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sheduler.out" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myProject/out/sheduler.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myProject/in/room.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -149,9 +171,7 @@
         <option value="$PROJECT_DIR$/myProject/entity/user.py" />
         <option value="$PROJECT_DIR$/myProject/entity/place.py" />
         <option value="$PROJECT_DIR$/myProject/entity/base.py" />
-        <option value="$PROJECT_DIR$/myProject/entity/sheduler.py" />
         <option value="$PROJECT_DIR$/flask_app/form/__init__.py" />
-        <option value="$PROJECT_DIR$/flask_app/app.py" />
         <option value="$PROJECT_DIR$/hw1/py01.py" />
         <option value="$PROJECT_DIR$/hw2/hw2_2.py" />
         <option value="$PROJECT_DIR$/hw2/hw2_3.py" />
@@ -166,13 +186,11 @@
         <option value="$PROJECT_DIR$/hw4/hw4_6_2.py" />
         <option value="$PROJECT_DIR$/hw4/hw4_6_5.py" />
         <option value="$PROJECT_DIR$/hw4/hw4_6_3.py" />
-        <option value="$PROJECT_DIR$/hw4/hw4_6_4.py" />
         <option value="$PROJECT_DIR$/hw5/main.py" />
         <option value="$PROJECT_DIR$/hw5/function.py" />
         <option value="$PROJECT_DIR$/myProject/in/place.txt" />
         <option value="$PROJECT_DIR$/myProject/entity/group.py" />
         <option value="$PROJECT_DIR$/myProject/in/user.txt" />
-        <option value="$PROJECT_DIR$/myProject/in/room.txt" />
         <option value="$PROJECT_DIR$/myProject/in/staff.txt" />
         <option value="$PROJECT_DIR$/myProject/in/group.txt" />
         <option value="$PROJECT_DIR$/myProject/entity/teacher.py" />
@@ -181,6 +199,10 @@
         <option value="$PROJECT_DIR$/myProject/in/task.txt" />
         <option value="$PROJECT_DIR$/myProject/entity/lesson.py" />
         <option value="$PROJECT_DIR$/myProject/entity/room.py" />
+        <option value="$PROJECT_DIR$/flask_app/app.py" />
+        <option value="$PROJECT_DIR$/myProject/in/room.txt" />
+        <option value="$PROJECT_DIR$/hw4/hw4_6_4.py" />
+        <option value="$PROJECT_DIR$/myProject/entity/sheduler.py" />
         <option value="$PROJECT_DIR$/myProject/main.py" />
       </list>
     </option>
@@ -231,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw3" />
+              <option name="myItemId" value="myProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,7 +267,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw2" />
+              <option name="myItemId" value="myProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,7 +285,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="class6" />
+              <option name="myItemId" value="myProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,7 +303,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="class5" />
+              <option name="myItemId" value="lesson07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flask_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,40 +421,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main (1)">
-    <configuration default="false" name="group" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/entity" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="team2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/entity/group.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="lesson" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/entity" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="team2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/entity/lesson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,6 +468,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="team2" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sheduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/entity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="team2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/entity/sheduler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hw4_6_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="team2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw4/hw4_6_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -515,19 +641,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.group" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lesson" />
-      <item index="2" class="java.lang.String" itemvalue="Python.user" />
-      <item index="3" class="java.lang.String" itemvalue="Python.teacher" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.user" />
+      <item index="1" class="java.lang.String" itemvalue="Python.teacher" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sheduler" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hw4_6_4" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.teacher" />
-        <item index="2" class="java.lang.String" itemvalue="Python.user" />
-        <item index="3" class="java.lang.String" itemvalue="Python.lesson" />
-        <item index="4" class="java.lang.String" itemvalue="Python.group" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sheduler" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hw4_6_4" />
+        <item index="3" class="java.lang.String" itemvalue="Python.teacher" />
+        <item index="4" class="java.lang.String" itemvalue="Python.user" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +699,28 @@
       <option name="project" value="LOCAL" />
       <updated>1490710637206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task2_3">
+      <created>1492983726141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492983726141</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task2_3">
+      <created>1492984022186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492984022186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task2_3">
+      <created>1492984204204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1492984204204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -588,7 +735,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44084278" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3987034" sideWeight="0.497191" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38573745" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5105348" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24702145" sideWeight="0.50567263" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -659,62 +806,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hw1/py01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1236">
-          <caret line="152" column="22" lean-forward="false" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/hw2_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/hw2_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/hw2_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/hw3_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/hw3_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/hw3_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw4/hw4_3.py" />
     <entry file="file://$PROJECT_DIR$/hw4/hw4_4.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,14 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw4/hw4_6_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw3/hw3_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -849,14 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw5/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -925,22 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/in/group.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/entity/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myProject/in/place.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -965,6 +1024,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/in/task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/form/room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/form/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/form/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myProject/entity/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -981,6 +1074,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/entity/lesson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/entity/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson07/cls09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/entity/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw5/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw5/hw_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/entity/room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/in/group.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw4/hw4_6_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myProject/in/lesson.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -989,61 +1154,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/entity/lesson.py">
+    <entry file="file://$PROJECT_DIR$/myProject/entity/sheduler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="90">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/out/sheduler.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myProject/in/room.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/entity/room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/in/task.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/entity/sheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/entity/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myProject/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1907">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state relative-caret-position="1695">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/app.sqlite">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

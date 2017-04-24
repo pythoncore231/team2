@@ -2,10 +2,11 @@ import os.path
 
 from flask import Flask, request, redirect,  render_template
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import relationship
 
-from form.forms import RoomForm, UserForm, LessonForm, SchedulerForm
+from form.forms import RoomForm, UserForm, LessonForm, SchedulerForm, GroupForm
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'app.sqlite')
@@ -21,12 +22,13 @@ class Room(db.Model):
     def __repr__(self):
         return '<Room {} {}>'.format(self.name, self.capacity)
 
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     firstname = db.Column(db.String(20), nullable=False)
     lastname = db.Column(db.String(20), nullable=False)
     age = db.Column(db.Integer, nullable=True)
-    
+
     @staticmethod
     def get_user(id):
         user = None
@@ -35,6 +37,23 @@ class User(db.Model):
         except Exception, e:
             print e
         return user
+
+
+class Group(db.Model):
+    __tablename__ = "groups"
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(10), unique=True, nullable=False)
+    members = db.Column(db.String(255), nullable=False)
+
+    @staticmethod
+    def get_group(id):
+        group = None
+        try:
+            group = Group.query.get(id)
+        except Exception, e:
+            print e
+        return group
+
 
 class Lesson(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -46,6 +65,7 @@ class Lesson(db.Model):
 
     def __repr__(self):
         return '<Lesson {} {} {}>'.format(self.id, self.name, self.teacher)
+
 
 class Scheduler(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -72,19 +92,15 @@ class Scheduler(db.Model):
         return '<Lesson {} {} {}>'.format(self.id, self.name, self.teacher)
 
 
-
 @app.route('/')
-def hello_world():
-    return """
-            <a href='http://localhost:5000/user'>user</a><br>
-            <a href='http://localhost:5000/user/add'>add user</a><br>
-            <a href='http://localhost:5000/room'>room</a><br>
-            <a href='http://localhost:5000/scheduler'>Scheduler</a><br>
-            <a href='http://localhost:5000/lesson'>lesson</a>"""
+def root():
+    return app.send_static_file('index.html')
+
 
 @app.route('/test')
 def hello_world_test():
     return 'test Hello, World!'
+
 
 @app.route('/room', methods=['GET', 'POST'])
 def room():
@@ -99,13 +115,13 @@ def room():
     return render_template('room.html', form=form, rooms=rooms)
 
 
-
 @app.route('/user', methods=['GET'])
 def user_get():
     users = User.query.all()
     return render_template('user.html', us=users)
 
-@app.route('/user/add', methods=['GET','POST'])
+
+@app.route('/user/add', methods=['GET', 'POST'])
 def user_add():
     form = UserForm(request.form)
     if request.method == 'POST' and form.validate():
@@ -117,7 +133,8 @@ def user_add():
         return redirect('/user')
     return render_template('user_add.html', form=form)
 
-@app.route('/user/<id>/update', methods=['GET','POST'])
+
+@app.route('/user/<id>/update', methods=['GET', 'POST'])
 def user_update(id):
     user = User.get_user(id)
     if user:
@@ -134,6 +151,41 @@ def user_update(id):
 
         return render_template('user_update.html', form=form)
     return redirect('/user')
+
+
+@app.route('/group', methods=['GET'])
+def group_get():
+    groups = Group.query.all()
+    return render_template('group.html', gs=groups)
+
+
+@app.route('/group/add', methods=['GET', 'POST'])
+def group_add():
+    form = GroupForm(request.form)
+    if request.method == 'POST' and form.validate():
+        group = Group(name=form.name.data, members=form.members.data)
+
+        db.session.add(group)
+        db.session.commit()
+        return redirect('/group')
+    return render_template('group_add.html', form=form)
+
+
+@app.route('/group/<id>/update', methods=['GET', 'POST'])
+def group_update(id):
+    group = Group.get_group(id)
+    if group:
+        form = GroupForm(request.form)
+        if request.method == "POST" and form.validate():
+            group.name = form.name.data
+            group.members = form.members.data
+            db.session.commit()
+            return redirect('/group')
+        form.name.data = group.name
+
+        return render_template('group_update.html', form=form)
+    return redirect('/group')
+
 
 @app.route('/lesson', methods=['GET','POST'])
 def lesson_get_post():
@@ -167,4 +219,4 @@ def scheduler_get_post():
 
 if __name__ == "__main__":
     db.create_all()
-    app.run(host="localhost", port=3000)
+    app.run()
